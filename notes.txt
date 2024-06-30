@@ -48,6 +48,11 @@ Sum of square of deviation of X
 Y-int:
 mean(Y) - [m*mean(x)]
 
-Error Evaluation in regressions
-1. Mean Absolute Error
+Errors in regression models: The average distance of observed value from the slope is known as error in regression
 
+Error Evaluation/Calculating in regression methods:
+1. Mean Absolute Error:  Calculated by calculating the absolute value of the difference of the actual value and predicted value and taking its mean value. (The minimum error)
+	Draw Back: if the line is not linear (it has a curve) one/few data point(s) can be really far away from the line and the error will be off
+2. Mean Squared Error: measures how close a regression line is to a set of data points; calculated by taking the average of errors squared from data as it relates to a function. (The maximum error)
+       Lower the MSE -> Smaller the error -> the better model 
+3. Root Mean Squared Error: same thing as above except you root it to calculate it (to optimize the error)
